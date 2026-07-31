@@ -1,6 +1,6 @@
 # WKT12 Wazuh Integration Setup
 
-![WKT12 Wazuh Integration Setup](assets/wkt12-banner.jpg)
+<img width="1536" height="1024" alt="61404F51-AC4E-421F-917C-777C96E85C83" src="https://github.com/user-attachments/assets/bd32a772-482f-4988-9200-7f2ade769647" />
 
 This repository provides a **plug-and-play Wazuh integration** for a WKT12-style Intel Center:
 
