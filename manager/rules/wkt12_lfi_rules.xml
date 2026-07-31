@@ -1,0 +1,21 @@
+<group name="wkt12_lfi_detection">
+
+  <rule id="900001" level="7">
+    <match>\.\./\.\./</match>
+    <description>WKT12: Directory traversal attempt</description>
+    <tag>wkt12_lfi</tag>
+  </rule>
+
+  <rule id="900002" level="10">
+    <match>/etc/passwd|/etc/shadow|/var/log/</match>
+    <description>WKT12: Suspicious file access via web request</description>
+    <tag>wkt12_lfi</tag>
+  </rule>
+
+  <rule id="900003" level="12">
+    <match>file=|page=|include=|load=</match>
+    <description>WKT12: Possible Local File Inclusion attempt</description>
+    <tag>wkt12_lfi</tag>
+  </rule>
+
+</group>

@@ -1,0 +1,4 @@
+intel_center:
+  base_url: "https://intel-center.example.com"
+  killfeed_endpoint: "/killfeed"
+  api_key: "CHANGE_ME"

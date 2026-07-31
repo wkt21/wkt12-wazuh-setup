@@ -1,0 +1,12 @@
+<group name="wkt12_rca_chain">
+
+  <rule id="900010" level="15">
+    <if_group>wkt12_lfi</if_group>
+    <if_group>wkt12_fim</if_group>
+    <if_group>process_creation</if_group>
+    <timeframe>30</timeframe>
+    <description>WKT12 RCA: LFI → File Change → Process Spawn</description>
+    <tag>wkt12_rca</tag>
+  </rule>
+
+</group>

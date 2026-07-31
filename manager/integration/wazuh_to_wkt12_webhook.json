@@ -1,0 +1,13 @@
+{
+  "source": "wazuh",
+  "timestamp": "$timestamp",
+  "host": "$agent_name",
+  "rule_id": "$rule.id",
+  "severity": "$rule.level",
+  "group": "$rule.groups",
+  "summary": "$rule.description",
+  "details": {
+    "log": "$full_log",
+    "location": "$location"
+  }
+}

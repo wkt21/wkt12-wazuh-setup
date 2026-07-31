@@ -1,0 +1,12 @@
+fim:
+  - directories:
+      - /var/www/
+      - /var/www/html/
+      - /srv/app/
+      - /tmp/
+      - /var/tmp/
+    recursive: yes
+    report_changes: yes
+    skip_nfs: yes
+    tags:
+      - wkt12_fim
